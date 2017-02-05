@@ -13,6 +13,14 @@ A simple docker container I use for experimental stuff. When you start the conta
 * python3-pip
 * screen
 * sudo
+* git
+* wget
+* curl
+
+Via pip, the following is also installed:
+
+* awscli - The command line utilities for Amazon AWS
+* boto3 - A Python library for working with AWS
 
 You can obviously add you own to the `Dockerfile` and build it.
 
