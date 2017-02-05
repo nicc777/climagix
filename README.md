@@ -55,4 +55,4 @@ I use the following in my `$HOME/.climagix/.bash_profile`:
 	# Generated with http://bashrcgenerator.com
 	export PS1="[climagix] \[\033[38;5;160m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;10m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
-I use this container to force an isolated environment especially when I do stuff online and work on Amazon AWS. Since containers are generally through away, the security can be enforced by setting the relevant AWS environment variables only once inside the containiner. I feel this minimizes the risks. Also, when you need to use IRC, running in a container should be a lot safer.
+I use this container to force an isolated environment especially when I do stuff online and work on Amazon AWS. Since containers are generally throw away, the security can be enforced by setting the relevant AWS environment variables only once inside the containiner. I feel this minimizes the risks. Also, when you need to use IRC, running in a container should be a lot safer.
